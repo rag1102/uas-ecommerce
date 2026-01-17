@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h2>Dashboard Admin - iPhone Store</h2>
+    </div>
+
+    <div class="container">
+      <h3>Tambah Produk</h3>
+      <form onsubmit="return tambahProduk();">
+        <input type="text" id="nama" placeholder="Nama iPhone" required />
+        <input type="number" id="harga" placeholder="Harga" required />
+        <button type="submit">Tambah</button>
+      </form>
+
+      <h3>Data Produk</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama Produk</th>
+            <th>Harga</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody id="tabelProduk"></tbody>
+      </table>
+
+      <div class="logout">
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+  </body>
+</html>

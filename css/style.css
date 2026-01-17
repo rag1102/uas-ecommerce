@@ -1,0 +1,79 @@
+/*  */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+
+.navbar {
+  background-color: #0d6efd;
+  color: white;
+  padding: 15px;
+}
+
+.container {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+form {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: orange;
+  color: white;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+}
+
+.logout {
+  margin-top: 20px;
+}
+
+.logout button {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
